@@ -9,6 +9,7 @@ class PostControllerSpec extends Specification {
 
 	def populateValidParams(params) {
 		assert params != null
+		params.content = "a"
 		// TODO: Populate valid properties like...
 		//params["name"] = 'someValidName'
 	}
